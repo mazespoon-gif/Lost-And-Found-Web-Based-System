@@ -1,0 +1,4 @@
+opencode -s ses_f71b55670ffeKv9tv2JGCT36qN
+
+site key = 0x4AAAAAAFS-MiPGpPEvPHAD
+secret key = 0x4AAAAAAFS-Mp5bH-plq8n_M39_Rb27mUE

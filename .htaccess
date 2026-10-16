@@ -1,0 +1,20 @@
+ErrorDocument 404 /bach-fourth/404.php
+ErrorDocument 500 /bach-fourth/500.php
+
+RewriteEngine On
+
+# Redirect /index to /home
+RewriteRule ^index$ home [R=301,L,QSA]
+
+# Route /home to index.php
+RewriteRule ^home$ index.php [L]
+
+# Redirect external .php URLs to clean URLs (except manifest/sw for PWA)
+RewriteCond %{THE_REQUEST} \.php[\s?]
+RewriteCond %{REQUEST_URI} !/(manifest|sw)\.php$
+RewriteRule ^(.*)\.php$ $1 [R=301,L,QSA]
+
+# Internally rewrite clean URLs to .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [L]
