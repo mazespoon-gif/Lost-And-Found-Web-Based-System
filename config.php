@@ -40,11 +40,7 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'lost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('SUPABASE_URL', 'https://bodxrgmzabspiffqvgij.supabase.co');
-define('SUPABASE_STORAGE_BUCKET', 'lost_and');
-define('SUPABASE_SERVICE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJvZHhyZ216YWJzcGlmZnF2Z2lqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MTYwNzE1MSwiZXhwIjoyMTA3MTgzMTUxfQ.wJ7PvC-B9eALsLk1VgB_fTmC53hKPoqWuttTEuiBfgw');
-define ('TURNSTILE_SITE_KEY', '0x4AAAAAAFS-MiPGpPEvPHAD');
-define ('TURNSTILE_SECRET_KEY', '0x4AAAAAAFS-Mp5bH-plq8n_M39_Rb27mUE' );
+
 
 
 
