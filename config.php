@@ -40,7 +40,12 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'lost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-
+//you must have an account on the supabase if you planning to close this website 
+define('SUPABASE_STORAGE_BUCKET', 'lost_and');
+define('SUPABASE_SERVICE_KEY', '');
+// cloudflare captcha turntile
+define ('TURNSTILE_SITE_KEY', '');
+define ('TURNSTILE_SECRET_KEY', '' );
 
 
 
